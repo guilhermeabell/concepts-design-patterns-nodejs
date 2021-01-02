@@ -5,9 +5,6 @@ const app = express();
 
 
 app.use('/', (request, response) => {
-=======
-app.use('/appointments', (request, response) => {
->>>>>>> 62effd6be1b80a99eacca586184881ef15e8592a
     return response.json({message: 'Hello World'})
 })
 
