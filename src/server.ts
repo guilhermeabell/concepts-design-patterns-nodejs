@@ -3,7 +3,7 @@ import routes from './routes';
 
 const app = express();
 
-app.get('/', (request, response) => {
+app.use('/appointments', (request, response) => {
     return response.json({message: 'Hello World'})
 })
 
