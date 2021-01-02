@@ -3,7 +3,7 @@ import routes from './routes';
 
 const app = express();
 
-app.get('/', (request, response) => {
+app.use('/', (request, response) => {
     return response.json({message: 'Hello World'})
 })
 
