@@ -1,4 +1,4 @@
-# GoBarber-web
+# Node Services
 
 ## Getting Started
 
@@ -11,7 +11,7 @@ git clone https://github.com/guilhermeabel99/
 `cd` into the directory.
 
 ```sh
-cd gobarber-web
+cd services-node
 ```
 
 Install the project dependencies:
