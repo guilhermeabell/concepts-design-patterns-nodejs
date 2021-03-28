@@ -1,7 +1,6 @@
 import { uuid } from 'uuidv4';
 
 
-
 class Appointment {
   id: string;
 
@@ -13,6 +12,7 @@ class Appointment {
     this.id = uuid();
     this.provider = provider;
     this.date = date;
+
   }
 }
 
